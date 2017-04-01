@@ -17,6 +17,7 @@ var api = new ParseServer({
   appId: process.env.APP_ID || '6AfkpaA322EaTaYtJaUkGTaoAzuBAV36QUqKWfqT8U8k3ihVugGTEFYFBBaKEF8U',
   clientKey: process.env.CLIENT_KEY || 'afrpJhMZpgfs6JURsC6umhTptQ9D6qKRtBZ7ZBXVeshie48hzwbZv32fWo8jToeM', //Add your master key here. Keep it secret!
   masterKey: process.env.MASTER_KEY || 'DB3NVbHVyDNuZmbw3vCJeaMqgYHepM8y3To6UX7ejQ2qjuqG89YsuYfFbV2ECawz', //Add your master key here. Keep it secret!
+  javascriptKey: process.env.JAVASCRIPT_KEY || 'MrCe8zPGmZackKqeiHF9qM2YR7MREbmqhC3krziFGdfQ88Himha7QCH9p2fArAif',
   serverURL: process.env.SERVER_URL || 'http://ioliwerapiserver.herokuapp.com/parse',  // Don't forget to change to https if needed
   liveQuery: {
     classNames: ["Posts", "Comments"] // List of classes to support for query subscriptions
